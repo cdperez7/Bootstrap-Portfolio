@@ -1,7 +1,57 @@
 #mainimage{
-    display: block;
-    max-width: 95%;
-    height: auto;
-    margin: 0px 10px 10px 0px;
+    height: 400px;
 }
+
+body{
+    background-image: url("bgcimage.png");
+}
+
+
+.footer{
+    margin-top: 2em;
+}
+
+
+
+
+
+
+.port1{
+    height: 250px;
+    background-image:url('pic1.jpg');
+    background-size:cover;
+    background-position:center;
+    float: left;
+}
+
+.port2{
+    height:250px;
+    background-image:url('pic2.jpg');
+    background-size:cover;
+    background-position:center;
+    float: left;
+    
+}
+
+.port3{
+    height:250px;
+    background-image:url('pic3.jpg');
+    background-size:cover;
+    background-position:center;
+    float: left;
+}
+
+.port4{
+    height:250px;
+    background-image:url('pic4.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.smaller{
+    text-align: center;
+    position: relative;
+    top: 12em;
+  }
 
