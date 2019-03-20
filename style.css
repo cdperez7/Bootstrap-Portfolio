@@ -2,56 +2,24 @@
     height: 400px;
 }
 
+/* Added mine page height so you can see that the footer is sticky */
+
 body{
     background-image: url("bgcimage.png");
+    min-height: 110vh;
 }
 
 
 .footer{
-    margin-top: 2em;
-}
-
-
-
-
-
-
-.port1{
-    height: 250px;
-    background-image:url('pic1.jpg');
-    background-size:cover;
-    background-position:center;
-    float: left;
-}
-
-.port2{
-    height:250px;
-    background-image:url('pic2.jpg');
-    background-size:cover;
-    background-position:center;
-    float: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
 }
 
-.port3{
-    height:250px;
-    background-image:url('pic3.jpg');
-    background-size:cover;
-    background-position:center;
-    float: left;
-}
 
-.port4{
-    height:250px;
-    background-image:url('pic4.jpg');
-    background-size:cover;
-    background-position:center;
-    position:relative;
-}
-
-.smaller{
-    text-align: center;
+.caption {
     position: relative;
-    top: 12em;
-  }
-
+    bottom: 25%;
+    width: 100%;
+}
